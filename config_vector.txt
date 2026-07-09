@@ -1,0 +1,20 @@
+# 벡터 근접전계-원전계 변환 파라미터 설정 파일
+# 전계 방향(Ex, Ey, Ez)을 고려한 벡터 변환
+
+# 주파수 (Hz)
+frequency = 10e9
+
+# 근접전계 측정 평면의 Z 좌표 (m)
+z_distance = 0.01
+
+# 원전계 계산 거리 (m)
+far_field_distance = 1.0
+
+# Theta 각도 범위 (시작, 끝, 스텝) 단위: 도
+theta_range = 0, 90, 1
+
+# Phi 각도 범위 (시작, 끝, 스텝) 단위: 도
+phi_range = 0, 360, 5
+
+# 사용할 전계 성분 (기본값: 모든 성분)
+# field_components = Ex, Ey, Ez
